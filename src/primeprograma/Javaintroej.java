@@ -17,6 +17,16 @@ public class Javaintroej {
      */
     public static void main(String[] args) {
         
+        int num1 = 8;
+        int num2 = 7;
+        
+        if (num1<num2) {
+            System.out.println("la variable num1 aloja un numero menor a la variable num2");
+        }else{
+            System.out.println("la variable num1 aloja un numero mayor a la variable num2");
+        }
+        
+      /*  
         Scanner leer = new Scanner(System.in);
         
         System.out.println("con esta clase guardamos valores ingresado por consola en las variable");
@@ -52,8 +62,9 @@ public class Javaintroej {
         System.out.println (resultado);
         System.out.print("el valor decimal es:" + decimales);
         System.out.println("  El estado de la variable booleana es " + siono);
-*/        
+        
 System.out.println("Nombre y Apellido " + nombreCompleto + " y la edad es: " + edad);
+*/
     }
     
 }
