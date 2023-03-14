@@ -1,3 +1,5 @@
+package primeprograma;
+
 
 
 import java.io.*;
@@ -7,13 +9,12 @@ public class vocalxcaracter {
 
 	public static void main(String args[]) throws IOException {
 		BufferedReader bufEntrada = new BufferedReader(new InputStreamReader(System.in));
-		String auxfrase;
+		String auxfrase = null;
 		int cntrol;
 		int i;
 		int j;
 		String letra;
-		double longitud{txto};
-		double longitud{vcales};
+
 		String txto;
 		String vcales;
 		// Definir variables
